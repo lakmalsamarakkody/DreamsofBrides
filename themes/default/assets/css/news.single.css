@@ -1,0 +1,44 @@
+.navbar-container {
+	background: -webkit-linear-gradient(left, #373f5f, #67343e);
+	background: -o-linear-gradient(left, #373f5f, #67343e);
+	background: linear-gradient(to right, #373f5f, #67343e);
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.section-news .card {
+	border-radius: 0;
+}
+
+.section-news .card .card-header {
+	background: #FFFFFF;
+	padding: 20px;
+}
+
+.section-news .card .card-header h1 {
+	font-size: 22px;
+	line-height: 30px;
+	color: #424242;
+	font-weight: 500;
+}
+
+.section-news .card .card-header small.muted-text {
+	font-weight: 500;
+	color: #676767;
+	font-size: 13px;
+}
+
+.section-news .card .card-body p {
+	font-size: 17px;
+	color: #6b6b6b;
+	line-height: 30px;
+}
+
+.section-news .card .card-body p a {
+	color: #2c3b67;
+	font-weight: 500;
+}
+
+.section-news .card .card-body p a:hover {
+	text-decoration: underline;
+}

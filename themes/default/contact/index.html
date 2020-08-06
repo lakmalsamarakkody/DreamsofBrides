@@ -1,0 +1,111 @@
+{{ template.header|raw }}
+<body>
+
+	<!-- HERO HEADER : START -->
+	<div class="container-fluid hero-header page" style="background: url('{{ app.url  }}/themes/default/assets/img/contact-hero-header-background.jpg');">
+		<div class="row">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-md-12">
+						{{ template.navbar|raw }}
+					</div>
+
+					<div class="col-md-12 text-center">
+
+						<!-- PAGE TITLE -->
+						<h1 class="page-title"> <br/></h1>
+
+						<p class="page-des">
+							
+						<br/>
+							
+						</p>
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- HERO HEADER : END -->
+
+	<!-- CONTACT DETAIL : START -->
+	<div class="container-fluid section section-contact-detail">
+		<div class="row">
+			<div class="container">
+				<div class="row">
+					
+					<div class="offset-md-1 col-md-10">
+						<div id="form-container" class="card">
+							<div class="card-body">
+								
+								<h3>Send us a Message</h3>
+
+								<div class="alert bg-danger text-light d-none">
+									Please provide a valid email address.
+								</div>
+
+								<!-- FORM : START -->
+								<form>
+									<div class="form-row">
+										
+										<div class="form-group col-md-6">
+											<label for="name" id="name">Full Name</label>
+											<input type="text" class="form-control" id="name">
+										</div>
+										
+										<div class="form-group col-md-6">
+											<label for="email" id="email">Email</label>
+											<input type="email" class="form-control" id="email">
+										</div>
+										
+										<div class="form-group col-md-12">
+											<label for="subject" id="subject">Subject</label>
+											<input type="text" class="form-control" id="subject">
+										</div>
+										
+										<div class="form-group col-md-12">
+											<label for="message" id="message">Message</label>
+											<textarea class="form-control" id="message" name="message"></textarea>
+										</div>
+
+									</div>
+
+									<div class="form-group">
+										<div class="btn btn-secondary">
+											Submit <i class="la la-paper-plane"></i>
+										</div>
+									</div>
+
+								</form>
+								<!-- FORM : END -->
+
+							</div>
+						</div>
+					</div>
+
+					<!-- CONTACT DETAIL CARD : START -->
+					<div class="offset-md-1 col-md-10">
+						<div id="contact-info-container" class="card text-light">
+							
+							<h3 class="text-light">Contact Information</h3>
+
+							<li><i class="la la-map-marker"></i> &nbsp; WP/NG David De Silva College, Yatiyana Minuwangoda.</li>
+							<li><i class="la la-phone"></i> &nbsp; +(94) 112 253 650</li>
+							<li><i class="la la-envelope"></i> &nbsp; wpngdavidsilvacollege@gmail.com</li>
+
+						</div>
+					</div>
+					<!-- CONTACT DETAIL CARD : END -->
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- CONTACT DETAIL : END -->
+
+	{{ template.footer|raw }}
+
+</body>
+</html>

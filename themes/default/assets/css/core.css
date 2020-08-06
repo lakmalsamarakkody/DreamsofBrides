@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Engagement');
+
+body {
+	font-family: 'Montserrat';
+	font-weight: 400;
+	font-size: 15px;
+}
+
+a:hover, a:visited, a:link, a:active {
+	text-decoration: none;
+	color: inherit;
+	cursor: pointer;
+}
+
+.section {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.hero-header {
+	position: relative;
+	background-size: cover !important;
+	background-repeat: no-repeat !important;
+}
+
+.hero-header:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	opacity: .8;
+	background: #83a4d4;
+	background: -webkit-linear-gradient(left, #373f5f, #67343e);
+	background: -o-linear-gradient(left, #373f5f, #67343e);
+	background: linear-gradient(to right, #373f5f, #67343e);
+
+}
+
+/* NAVBAR : START */
+.navbar .navbar-brand{
+	color: #FFFFFF;
+	font-size: 20px;
+	font-weight: 800;
+}
+
+.navbar .navbar-brand img {
+	height: 50px;
+}
+
+.navbar .navbar-nav .nav-link {
+	font-weight: 500;
+	color: #FFFFFF;
+	margin-right: 25px;
+	border-bottom: solid 2px transparent;
+	transition: all ease 0.2s;
+	-webkit-: all ease 0.2s;
+	-moz-: all ease 0.2s;
+	-o-: all ease 0.2s;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+	border-bottom: solid 2px #FFFFFF;
+}
+/* NAVBAR : END */
+
+/* HERO HEADER : START */
+.hero-header {
+	padding-top: 25px;
+}
+/* HERO HEADER : END */
+
+/* FOOTER : START */
+footer {
+	background: #082d5d;
+	color: #FFFFFF;
+}
+
+footer img.logo {
+	width: 200px;
+	margin-top: 50px;
+}
+
+footer h5 {
+	font-size: 14px;
+	font-weight: 500;
+	margin-top: 50px;
+	margin-bottom: 25px;
+}
+
+footer p.des {
+	font-size: 13px;
+	display: none;
+}
+
+footer input {
+	font-size: 13px;
+}
+
+footer #footer-nav {
+	text-align: center;
+	line-height:30px;
+}
+
+footer #footer-nav  li {
+	list-style:none;
+	margin: 0 10px;
+	display:inline;
+	font-size: 14px;
+}
+
+footer .social-icons {
+	margin-top: 50px;
+}
+
+footer .social-icons i.la {
+	font-size: 25px;
+	margin: 0px 10px;
+}
+
+.copyright {
+	font-size: 13px;
+	background-color: #0E141D;
+	padding-top: 5px;
+	padding-bottom: 5px;
+    color: #DDDDDD;
+}
+
+.copyright a {
+    color: #ffffff;
+}
+/* FOOTER : END */
+
+/* PAGE STYLE : START */
+.hero-header.page {
+	padding-bottom: 100px;
+	color: #FFFFFF;
+}
+
+.hero-header.page h1.page-title {
+	margin-top: 100px;
+	font-size: 35px;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+
+.hero-header.page p.page-des {
+	margin-top: 35px;
+	font-weight: 500;
+}
+/* PAGE STYLE : END */

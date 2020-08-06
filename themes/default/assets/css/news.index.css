@@ -1,0 +1,20 @@
+.hero-header.page {
+	margin-bottom: 80px;
+}
+
+.hero-header.page h1.page-title {
+	margin-top: 50px;
+}
+
+.section-news-listing .news-thumb h3.card-title {
+	font-size: 20px;
+	color: #191919;
+	font-weight: 400;
+	margin-top: 15px;
+}
+
+.section-news-listing .news-thumb  .card-text {
+	font-size: 14px;
+	color: #7D7D7D;
+	font-weight: 400;
+}

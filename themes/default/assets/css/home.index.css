@@ -1,0 +1,131 @@
+/* HERO HEADER : START */
+.hero-header {
+	padding-bottom: 150px;
+}
+
+.hero-header h1 {
+	font-weight: 800;
+	font-size: 52px;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	margin-top: 150px;
+	line-height: 65px;
+	margin-bottom: 30px;
+}
+
+.hero-header h1 span {
+	color: #f5ab35;
+}
+
+.hero-header p {
+	color: #FFFFFF;
+	opacity: 0.7;
+	margin-bottom: 50px;
+}
+
+.hero-header .btn.btn-lg {
+	padding: 13px 30px;
+	font-size: 15px;
+	font-weight: 500;
+}
+/* HERO HEADER : END */
+
+/* VISION MISSION */
+.title{
+	font-size: 30px;
+	font-weight: 800;
+	color: #818181;
+}
+
+/* PRINCIPAL'S MESSAGE : START */
+.section-principal-note .title {
+	font-size: 16px;
+	font-weight: 500;
+	color: #818181;
+}
+
+.section-principal-note h3 {
+	margin-top: 15px;
+	font-weight: 800;
+	line-height:40px;
+	font-size: 33px;
+	color: #3e3e3e;
+}
+
+.section-principal-note p {
+	margin-top: 25px;
+	color: #8a8a8a;
+	font-size: 15px;
+	line-height: 25px;
+	font-weight: 400;
+	margin-bottom: 60px;
+}
+
+.section-principal-note .signature {
+	color: #818181;
+	font-weight: 500;
+	margin-top: 15px;
+}
+
+.section-principal-note .signature span {
+	color: #1D1D1D;
+	font-weight: 600;
+}
+/* PRINCIPAL'S MESSAGE : END */
+
+/* RECENT NEWS : START */
+.section-recent-news {
+	background: #f1f5f9;
+	padding-top: 70px;
+	padding-bottom: 75px;
+}
+
+.section-recent-news .card .card-body {
+	padding-top: 0;
+}
+
+.section-recent-news .card .card-title {
+	color: #191919;
+	font-weight: 400;
+}
+
+.section-recent-news .card .card-text {
+	font-size: 14px;
+	margin-top: 15px;
+	color: #7d7d7d;
+}
+
+.section-recent-news .card-footer {
+	font-size: 13px;
+	background: #FFFFFF;
+}
+
+.section-recent-news .card-footer a:hover {
+	text-decoration: none;
+	color: #3d5e9a;
+}
+/* RECENT NEWS : END */
+.xban {
+	background-color: #f1f5f9;
+}
+
+.xban h3 {
+	font-size: 75px;
+	font-weight: 600;
+	font-family: 'Engagement';
+}
+
+.xban p {
+	padding-right: 150px;
+	font-size: 18px;
+	line-height: 32px;
+	color: #676767;
+}
+
+.xban .media-icon {
+	width: 100px;
+}
+
+.xban .btn {
+	border-radius: 0px;
+}

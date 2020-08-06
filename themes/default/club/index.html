@@ -1,0 +1,215 @@
+{{ template.header|raw }}
+
+<body>
+
+	<!-- HERO HEADER : START -->
+	<div class="container-fluid hero-header page" style="background: url('{{ app.url  }}/themes/default/assets/img/clubs-hero-header-background.jpg');">
+		<div class="row">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-md-12">
+						{{ template.navbar|raw }}
+					</div>
+
+					<div class="col-md-12 text-center">
+
+						<!-- PAGE TITLE -->
+						<h1 class="page-title">SOCIETIES</h1>
+
+						<p class="page-des">
+							David De Silva College has many societies covering many fields 
+							<br>
+							By this hub you can join and contact with them
+						</p>
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- HERO HEADER : END -->
+
+	<!-- CLUBS LISTING : START -->
+	<div class="container-fluid pt-5 pb-5 club-listing">
+		<div class="row">
+			<div class="container">
+				<div class="row">
+
+					<table id="data_table" class="table table-hover">
+						
+						<tr>
+							<th>Society</th>
+							<th>Teacher In-charge</th>
+							<th>President</th>
+							<th>Secretary</th>
+							<th>Treasurer</th>
+						</tr>
+
+					</table>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- CLUBS LISTING : END -->
+
+	{{ template.footer|raw }}
+
+
+	<script type="text/javascript">
+
+	data = [
+	        {
+	            "SocietyName": " English Drama Society",
+	            "TIC": "Neranjana Jayasooriya",
+	            "President": "Dinitha Gangodawila",
+	            "Secretary": "Gomika Sineth",
+	            "Treasurer": "Kisandul Kumarasinghe"
+	        },
+	        {
+	            "SocietyName": "Aeronautical Society",
+	            "TIC": "K.A.K.Chamara",
+	            "President": "Y.H.I.S.Kumara",
+	            "Secretary": "W.H.G.Welgama",
+	            "Treasurer": "Y.H.P.S.N.Yapa"
+	        },
+	        {
+	            "SocietyName": "Art Circle",
+	            "TIC": "Ranga Liyanage",
+	            "President": "I.I.G.M. Gunasekara",
+	            "Secretary": "P.V.L.Dilshan",
+	            "Treasurer": "R.A.A.H.Rathnasekara"
+	        },
+	        {
+	            "SocietyName": "Art Society",
+	            "TIC": "C.L.Marasinghe",
+	            "President": "Sasijith Hettiarachchi",
+	            "Secretary": "Sahasra Omaka",
+	            "Treasurer": "Thisara Hasaranga"
+	        },
+	        {
+	            "SocietyName": "Commerce Association",
+	            "TIC": "P.Kamalasiri",
+	            "President": "Sachith Hashan",
+	            "Secretary": "Chanuka Maheepa",
+	            "Treasurer": "Maleesha Kularathne"
+	        },
+	        {
+	            "SocietyName": "Computer Society",
+	            "TIC": "A.B.Jayalath",
+	            "President": "H.K.S.Rathnathilaka",
+	            "Secretary": "V.O.Gallage",
+	            "Treasurer": "A.A.D.N.Malshan",
+	        },
+	        {
+	            "SocietyName": "Debate Society",
+	            "TIC": "P.W.Prema Kulathilaka",
+	            "President": "P.K.M.Pahasara",
+	            "Secretary": "B.A.D.Hemsara",
+	            "Treasurer": "D.N.Wijesooriya"
+	        },
+	        {
+	            "SocietyName": "English Literary Association",
+	            "TIC": "Ravindra Balasooriya",
+	            "President": "T.Fernando",
+	            "Secretary": "T.Dilshan",
+	            "Treasurer": "K.Dilshan"
+	        },
+	        {
+	            "SocietyName": "Environment Pioneers Brigade",
+	            "TIC": "R.R.Jayarathna",
+	            "President": "W.P.D.O.K.Dissanayake",
+	            "Secretary": "J.A.L.Avishka",
+	            "Treasurer": "K.T.Pannala"
+	        },
+	        {
+	            "SocietyName": "Geographical Society",
+	            "TIC": "S.S.Vithanage",
+	            "President": "Maheema Rivisari",
+	            "Secretary": "H.C.A.Senevirathne",
+	            "Treasurer": "Pasindu Madushan"
+	        },
+	        {
+	            "SocietyName": "History & Archeology Soceity",
+	            "TIC": "R.A.D.T.Ranathunga",
+	            "President": "A.Maduranga",
+	            "Secretary": "N.Prasad",
+	            "Treasurer": "K.Pradeeptha"
+	        },
+	        {
+	            "SocietyName": "Library Society",
+	            "TIC": "P.A.T.Polgampala",
+	            "President": "Tharusha Dilshan",
+	            "Secretary": "Duminda Chathuranga",
+	            "Treasurer": "Yukthi Methsara"
+	        },
+	        {
+	            "SocietyName": "Media Unit",
+	            "TIC": "B.A.P.R.Balasooriya",
+	            "President": "W.A.B.Gimhana",
+	            "Secretary": "U.P.D.S.Divyanjana",
+	            "Treasurer": "R.P.D.I.Wijayawardhana"
+	        },
+	        {
+	            "SocietyName": "Photographic Art Society",
+	            "TIC": "A.Athapattu",
+	            "President": "R.D.P.R.Ranage",
+	            "Secretary": "B.K.R.Ariyawansha",
+	            "Treasurer": "K.M.S.Kobewatta"
+	        },
+	        {
+	            "SocietyName": "Red Cross Society",
+	            "TIC": "W.A.R.M.Wannakuarachchi",
+	            "President": "L.P.H.A.Pathirana",
+	            "Secretary": "I.S.Dhananjaya",
+	            "Treasurer": "B.M.K.N.Bandaranayake"
+	        },
+	        {
+	            "SocietyName": "Science Society",
+	            "TIC": "S.Dewagama",
+	            "President": "Gihan Liyanarachchi",
+	            "Secretary": "H.M.R.Pushpakumara",
+	            "Treasurer": "D.G.T.Samaranayake"
+	        },
+	        {
+	            "SocietyName": "Scouts Unit",
+	            "TIC": "Nelka Priyangani",
+	            "President": "J.M.Kodithuwakku",
+	            "Secretary": "S.E.D.I.Wanasighe",
+	            "Treasurer": "H.H.H.Gamage"
+	        },
+	        {
+	            "SocietyName": "Traffic Warden Unit",
+	            "TIC": "E.H.M.A.Priyantha",
+	            "President": "Ishara Dilshan",
+	            "Secretary": "Irusha Hettiarachchi",
+	            "Treasurer": "Janidu Amandika"
+	        },
+	        {
+	            "SocietyName": "Union of Astronomy",
+	            "TIC": "J.Hapangama",
+	            "President": "R.S.D.S.Dinuranga",
+	            "Secretary": "Vidura",
+	            "Treasurer": "K.R.S.U.Wickramasinghe"
+	        },
+	        {
+	            "SocietyName": "Vocational Guidance & Counseling Unit",
+	            "TIC": "S.M.M.Siriwardhana",
+	            "President": "W.M.K.C.Weerasooriya",
+	            "Secretary": "G.G.R.Pjayantha",
+	            "Treasurer": "U.A.R.Deshantha"
+	        }
+	    ]
+
+		for (var key in data) {
+		        
+			$("#data_table tr:last").after("<tr><td>"+data[key].SocietyName+"</td><td>"+data[key].TIC+"</td><td>"+data[key].President+"</td><td>"+data[key].Secretary+"</td><td>"+data[key].Treasurer+"</td></tr>")
+
+		}
+
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,171 @@
+{{ template.header|raw }}
+
+<body>
+
+	<!-- HERO HEADER : START -->
+	<div class="container-fluid hero-header" style="background: url('{{ app.url  }}/themes/default/assets/img/home-hero-header-background.jpg');">
+		<div class="row">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-md-12">
+						{{ template.navbar|raw }}
+					</div>
+
+					<div class="col-md-8">
+						
+						<h1>
+							Welcome to <br/> <span>Dreams of Brides</span>
+						</h1>
+
+						<p>
+							David De Silva College Minuwangoda was founded in September 1918. It is considered to be a leading Public School in Minuwangoda
+						</p>
+
+						<div class="btn btn-outline-light btn-lg">TAKE A TOUR</div>
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- HERO HEADER : END -->
+
+	<!-- VISION and MISSION : START -->
+	<div class="container-fluid vision " style="background-color:#EEEEEE;">
+		<div class="row">
+			<div class="container mt-5 mb-5">
+				<div class="row" >
+
+					<div class="col-md-6 mt-5 mb-5">
+						<div class="card card-quote w-100 pt-5">
+							<div class="card-body pb-5">
+								<p class="title">VISION</p>
+								<p class="card-text mb-4">Endowment of an Inspiring to younger generation fortified with morals virtues and Intelligence in order to create a spiritually fertile society</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6 mt-5 mb-5">
+						<div class="card card-quote w-100 pt-5">
+							<div class="card-body pb-4">
+								<p class="title">MISSION</p>
+								<p class="card-text mb-4">Creating a just and free society endowed with Virtues and Morals, Vigor and Strength required to shoulder the responsibility of developing the land to encounter the challenges confronted in the future</p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- VISION and MISSION : END -->
+
+	<!-- PRINCIPAL'S NOTE : START -->
+	<div class="section container-fluid section-principal-note">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-md-8">
+					
+					<div class="title">
+						Headmaster's Message
+					</div>
+
+					<h3>EDUCATION IS THE MOST<br>POWERFUL WEAPON</h3>
+
+					<p>
+						It is truly an honor to lead students of David De Silva College and such a great staff that devotes their lives to educating students.David De Silva College is a front line school with great results in GCE OL. We are committed to creating a safe and positive learning environment for our students.
+					</p>
+
+					<!-- SIGNATURE -->
+					<img src="{{ app.url }}/themes/default/assets/img/signature.png" class="img-fluid">
+
+					<div class="signature">
+						<span class="name">Susantha Karunarathne</span>
+						<br>
+						Principal of David De Silva College
+					</div>
+
+				</div>
+
+				<div class="col-md-4"><img src="{{ app.url }}/themes/default/assets/img/principal.jpg" class="img-fluid"></div>
+
+			</div>
+		</div>
+	</div>
+	<!-- PRINCIPAL'S NOTE : END -->
+
+	
+
+	<!-- RECENT NEWS : START -->
+	<div class="section container-fluid section-recent-news">
+		<div class="container">
+
+			<div class="card-deck">
+
+				<div class="card">
+					<a href="#">
+						<img class="card-img-top" src="{{ app.url  }}/themes/default/assets/img/events/akurata_athwela.jpg">
+					</a>
+    				<div class="card-body">
+    				
+    					<p class="card-text"><small class="text-muted">03 August, 2017</small></p>
+						<a href="#"><h5 class="card-title">Akurata Athwela for <br/> Scholarship exam</h5></a>
+						<a href="#">
+							<p class="card-text"></p>
+						</a>
+    				
+    				</div>
+    				<div class="card-footer">
+    					<a href="#" class="text-secondary">Read More <i class="la la-caret-right"></i></a>
+    				</div>
+				</div>
+
+				<div class="card">
+					<a href="#">
+						<img class="card-img-top" src="{{ app.url  }}/themes/default/assets/img/events/sportmeet.jpg">
+					</a>
+					<div class="card-body">
+					
+						<p class="card-text"><small class="text-muted">28 January, 2018</small></p>
+						<a href="#"><h5 class="card-title">Sports Meet - 2018</h5></a>
+						<a href="#">
+							<p class="card-text"></p>
+						</a>
+					
+					</div>
+					<div class="card-footer">
+						<a href="#" class="text-secondary">Read More <i class="la la-caret-right"></i></a>
+					</div>
+				</div>
+
+				<div class="card">
+					<a href="#">
+						<img class="card-img-top" src="{{ app.url  }}/themes/default/assets/img/events/battleofmaroons.jpg">
+					</a>
+					<div class="card-body">
+					
+						<p class="card-text"><small class="text-muted">12 May, 2019</small></p>
+						<a href="#"><h5 class="card-title">Debate Competition - 2019</h5></a>
+						<a href="#">
+							<p class="card-text"></p>
+						</a>
+					
+					</div>
+					<div class="card-footer">
+						<a href="#" class="text-secondary">Read More <i class="la la-caret-right"></i></a>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+	<!-- RECENT NEWS : END -->
+
+	{{ template.footer|raw }}
+
+</body>
+</html>
